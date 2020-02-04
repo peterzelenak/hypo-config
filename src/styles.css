@@ -1,0 +1,35 @@
+body {
+    background-color: #e6ebef;
+    font-family: 'Open Sans', sans-serif;
+    color: #16476c;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+._content {
+    width: 1280px;
+}
+
+.tag.contact--tag {
+    margin-left: -2px;
+}
+
+img.contact--mail-icon {
+    width: 15px;
+    margin-left: 4px;
+}
+
+#current-owner-td {
+    vertical-align: middle;
+}
+
+#paper-with-tabs {
+    border-top-left-radius: 0;
+}
+
+@media (max-width: 916px) {
+    #paper-with-tabs {
+        border-top-right-radius: 0;
+    }
+}
