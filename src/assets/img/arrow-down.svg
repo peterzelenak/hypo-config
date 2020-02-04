@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>caret-down/default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,18.1143819 L21.7238576,12.3905243 C22.2445567,11.8698252 23.0887767,11.8698252 23.6094757,12.3905243 C24.1301748,12.9112233 24.1301748,13.7554433 23.6094757,14.2761424 L16.942809,20.942809 C16.42211,21.4635081 15.57789,21.4635081 15.057191,20.942809 L8.39052429,14.2761424 C7.86982524,13.7554433 7.86982524,12.9112233 8.39052429,12.3905243 C8.91122335,11.8698252 9.75544332,11.8698252 10.2761424,12.3905243 L16,18.1143819 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.00-Stav-uveru---2" transform="translate(-817.000000, -720.000000)">
+            <g id="Group-6" transform="translate(498.000000, 706.000000)">
+                <g id="Group-5" transform="translate(153.000000, 0.000000)">
+                    <g id="caret-down/default" transform="translate(158.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="mixin/primary-500" mask="url(#mask-2)" fill="#0065AC" fill-rule="evenodd">
+                            <g id="g-primary-500">
+                                <polygon id="bg_color" points="0 0 33.3333333 0 33.3333333 32 0 32"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
