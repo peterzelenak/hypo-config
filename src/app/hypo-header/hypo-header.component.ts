@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { UserService } from '../user.service';
+
 @Component({
   selector: 'app-hypo-header',
   templateUrl: './hypo-header.component.html',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HypoHeaderComponent implements OnInit {
 
-  constructor() { }
+  user;
+
+  constructor(private userService: UserService) { }
 
   ngOnInit() {
+    console.warn('soosos');
+    this.user = this.userService.getUser();
   }
 
 }

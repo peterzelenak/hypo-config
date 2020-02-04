@@ -1,57 +1,49 @@
-
-   <div class="flex">
-    <div class="display--inline-block">
-      <h1 class="display--inline-block margin--none">
-        <span>Honza Chytrý, Iva Chytrá</span>
-        <span class="tag tag--dark-blue text--uppercase text--weight-700 text--spaced">
-          hypotéka čs
-        </span>
-      </h1>
-      <h3 class="margin--v-16">
-        <span>Koupě</span>
-        <span class="text--weight-400">Byt 2+kk 2 500 000 Kč</span>
-      </h3>
-    </div>
-     <img class="flex--aln-self-start margin--left-auto" src="assets/img/cs-logo.svg" />
+<div class="flex">
+	<table class="table--no-head">
+		<tbody>
+			<tr>
+				<td>prihlášený uživatel</td>
+				<td>
+					<span>{{user.firstName}}</span>
+					<span class="display--block margin--v-8">Hypoteční centrum, Praha 1</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<img class="flex--aln-self-start margin--left-auto" src="assets/img/cs-logo.svg" />
   </div>
 
-  <div class="tabs margin--top-32">
-    <a href="../index.html" class="tab tab--active">nastavení kontrol limitů ČNB</a>
-  </div>
-  <div id="paper-with-tabs" class="paper paper--white">
-    <div class="paper paper--blue flex flex--wrap flex--justify-space-b">
-      <table class="table--no-head">
-        <tbody>
-        <tr>
-          <td>procesní fáze</td>
-          <td>Podpis dokumentace</td>
-        </tr>
-        <tr>
-          <td>stanovisko</td>
-          <td>Odeslat k podpisu</td>
-        </tr>
-        <tr>
-          <td class="table--data--with-tag">aktuální vlastník</td>
-          <td class="table--data--with-tag">
-            <div class="tag tag--light-blue contact--tag margin--none">
-              <span>Petr Chytil </span>
-              <img class="contact--mail-icon" src="img/mail.svg" />
-            </div>
-            <span class="text--weight-400 margin--top-8">+420 739 925 323</span>
-          </td>
-        </tr>
-        </tbody>
-      </table>
-      <table class="table--no-head">
-        <tbody>
-        <tr>
-          <td>id případu</td>
-          <td>328193</td>
-        </tr>
-        <tr>
-          <td>CIDLA</td>
-          <td>jfsdf34kk0jnnsala9msn</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
+	<div class="tabs margin--top-32">
+		<a href="../index.html" class="tab tab--active">nastavení kontrol limitů ČNB</a>
+	</div>
+	<div id="paper-with-tabs" class="paper paper--white">
+
+		<form action="/action_page.php">
+			<div class="paper paper--blue flex flex--wrap flex--justify-space-b">
+				<table class="table--no-head">
+					<tbody>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>LTV > 80%</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>DTI > 40%</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>DSTI > 30%</td>
+						</tr>
+                        <tr>
+              <td>
+                <input type="submit" value="Submit">
+              </td>
+              <td>
+              </td>
+            </tr>
+					</tbody>
+				</table>
+			</div>
+		</form>
+
+	</div>
